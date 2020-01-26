@@ -13,7 +13,7 @@ body{
 
 .jan{
 /*     border: 3px solid rgb(114, 114, 114); */
-    background-color: rgb(50,50,50);
+/*     background-color: rgb(50,50,50); */
     border-radius: 5px;
     width:40vw;
     margin-top: 20vh;
@@ -74,8 +74,15 @@ body{
 }
 
 #timestamp{
-    text-align: right;
+    text-align: center;
     /* margin: auto 0; */
+    color: black;
+}
+
+#time{
+    text-align: center;
+    font-size:60px;
+    color: rgb(75, 135, 214);
 }
 
 /* .date time{
@@ -84,4 +91,3 @@ body{
   max-width: 30px;
   border-radius: 30px;
 } */
-/* js if date time ===, add */
